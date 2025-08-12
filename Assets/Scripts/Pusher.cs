@@ -18,6 +18,7 @@ public class Pusher : MonoBehaviour
     void Update()
     {
         float z = amplitude * Mathf.Sin(Time.time * speed);
+
         transform.localPosition = startPosition + new Vector3(0, 0, z);
 
     }
